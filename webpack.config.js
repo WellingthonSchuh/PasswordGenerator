@@ -4,7 +4,7 @@ module.exports = {
     mode: 'development',
     entry: './SRC/index.js',
     output: {
-        path: path.resolve(__dirname, 'public', 'Assets', 'Js'),
+        path: path.resolve(__dirname, 'docs', 'Assets', 'Js'),
         filename: 'bundle.js'
     },
     module: {
